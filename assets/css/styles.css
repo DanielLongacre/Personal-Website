@@ -5,45 +5,67 @@
     padding: 0;
 }
 
+title {
+    display: none;
+}
+
 body {
-    background: black;
+    background: white;
+    color: white;
 }
 
 /* Header Section */
 header {
     background-color: rgb(44, 44, 44); 
-    /* color: #000; */
     display: flex;
     justify-content: space-between;
 }
 
 h1 {
-    background-color:aquamarine;
+    background-color: skyblue;
     color: rgb(44, 44, 44);
     padding: 0 5px 0 50px;
     margin: 10px 0;
 }
 
 nav {
-    border: 3px solid black;
     padding: 10px;
     display: flex;
+    align-items: flex-end;
 }
 
 nav a {
     margin: 0 20px;
-    color: aquamarine;
+    color: skyblue;
     text-decoration: none;
     border-bottom: 2px solid black;
-    border-color: aquamarine;
+    border-color: skyblue;
+}
+
+nav a:hover {
+    color: blue;
 }
 
 /* Hero Image */
 #hero {
     background-image: url(../images/hero_image.jpg);
+    background-size: auto;
     height: 30vh;
     width: auto;
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#hero img {
+    color: transparent;
+}
+
+h2 {
+    margin: 0 80px 25px 0;
+    background-color: skyblue;
+    color: black;
+    padding: 5px 5px 5px 3px;
 }
 
 
