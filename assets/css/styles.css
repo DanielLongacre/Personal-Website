@@ -77,7 +77,43 @@ main {
 }
 
 section {
-    background-color: blueviolet;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+#about {
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+}
+
+.title {
+    display: flex;
+    flex: 0 0 20%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 5%;
+}
+
+.title h2 {
+    color: midnightblue;
+    font-size: 45px;
+    text-align: right;
+}
+
+.content {
+    display: flex;
+    flex: 0 0 70%;
+    justify-content: center;
+    margin-left: 5%;
+    border-left: 3px solid midnightblue;
+}
+
+.content p {
+    font-size: 20px;
+    margin-left: 5%;
+    color: midnightblue;
 }
 
