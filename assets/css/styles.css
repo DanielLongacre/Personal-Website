@@ -1,13 +1,4 @@
 /* Global Selectors */
-:root {
-    --title:var(red);
-    --sections:var(green);
-    --footer:var(rgb(0, 247, 255));
-    --primary:var(rgb(56, 194, 187));
-    --secondary:var(rgb(56, 56, 56));
-    --accent:var(rgb(13, 6, 48));
-}
-
 * {
     display: block;
     margin: 0;
@@ -15,18 +6,48 @@
 }
 
 body {
-    background: #fff;
+    background: black;
 }
 
-/* Primary Selectors */
+/* Header Section */
 header {
-
+    background-color: rgb(44, 44, 44); 
+    /* color: #000; */
+    display: flex;
+    justify-content: space-between;
 }
 
+h1 {
+    background-color:aquamarine;
+    color: rgb(44, 44, 44);
+    padding: 0 5px 0 50px;
+    margin: 10px 0;
+}
+
+nav {
+    border: 3px solid black;
+    padding: 10px;
+    display: flex;
+}
+
+nav a {
+    margin: 0 20px;
+    color: aquamarine;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    border-color: aquamarine;
+}
+
+/* Hero Image */
 #hero {
-
+    background-image: url(../images/hero_image.jpg);
+    height: 30vh;
+    width: auto;
+    background-repeat: no-repeat;
 }
 
+
+/* Main section */
 section {
-    
+
 }
