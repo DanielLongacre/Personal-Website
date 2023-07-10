@@ -1,0 +1,32 @@
+/* Global Selectors */
+:root {
+    --title:var(red);
+    --sections:var(green);
+    --footer:var(rgb(0, 247, 255));
+    --primary:var(rgb(56, 194, 187));
+    --secondary:var(rgb(56, 56, 56));
+    --accent:var(rgb(13, 6, 48));
+}
+
+* {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+/* Primary Selectors */
+header {
+
+}
+
+#hero {
+
+}
+
+section {
+    
+}
