@@ -55,6 +55,8 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    background-position-x: 85%;
+    background-position-y: 50%;
 }
 
 #hero img {
