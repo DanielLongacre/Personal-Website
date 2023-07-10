@@ -63,7 +63,7 @@ nav a:hover {
     color: transparent;
 }
 
-h2 {
+#hero h2 {
     margin: 0 80px 25px 0;
     background-color: skyblue;
     color: black;
@@ -72,6 +72,12 @@ h2 {
 
 
 /* Main section */
-section {
-
+main {
+    display: block;
 }
+
+section {
+    background-color: blueviolet;
+    margin-bottom: 10%;
+}
+
