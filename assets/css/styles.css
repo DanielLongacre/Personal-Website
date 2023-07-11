@@ -106,6 +106,7 @@ section {
 
 .content {
     display: flex;
+    flex-wrap: wrap;
     flex: 0 0 70%;
     justify-content: center;
     margin-left: 5%;
@@ -125,7 +126,9 @@ section {
     font-size: 25px;
     align-self: center;
     flex-wrap: wrap;
-    margin-right: 2vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 25px;
 }
 
 #work .content {
