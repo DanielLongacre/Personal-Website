@@ -115,5 +115,14 @@ section {
     font-size: 20px;
     margin-left: 5%;
     color: midnightblue;
+    border: 2px solid black;
+}
+
+.content a {
+    border: 2px solid black;
+    font-size: 25px;
+    align-self: center;
+    flex-wrap: wrap;
+    margin-right: 2vw;
 }
 
