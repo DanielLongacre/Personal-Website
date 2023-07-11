@@ -126,3 +126,12 @@ section {
     margin-right: 2vw;
 }
 
+#work .content {
+    display: flex;
+}
+
+h4 {
+    color: black;
+    
+}
+
