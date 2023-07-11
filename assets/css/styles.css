@@ -101,6 +101,7 @@ section {
     color: midnightblue;
     font-size: 45px;
     text-align: right;
+    align-self: flex-start;
 }
 
 .content {
@@ -114,6 +115,7 @@ section {
 .content p {
     font-size: 20px;
     margin-left: 5%;
+    margin-right: 5%;
     color: midnightblue;
     border: 2px solid black;
 }
@@ -128,10 +130,21 @@ section {
 
 #work .content {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
+.box {
+    border: 3px solid black;
+    margin: 10px;
+    padding: 6vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
 
 h4 {
     color: black;
-    
 }
 
