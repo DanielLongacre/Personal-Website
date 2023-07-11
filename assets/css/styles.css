@@ -150,6 +150,14 @@ h4 {
     float: left;
     border: 2px solid black;
     position: relative;
-    right: 45px;
+    right: 50px;
+    top: 35px;
+}
+
+.box p {
+    border: none;
+    position: relative;
+    right: 50px;
+    top: 35px;
 }
 
