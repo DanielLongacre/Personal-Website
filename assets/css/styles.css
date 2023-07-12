@@ -132,7 +132,7 @@ section {
 
 /* Contact links */
 .content a {
-    font-size: 3vw;
+    font-size: 2.5vw;
     align-self: center;
     flex-wrap: wrap;
     margin-left: 5%;
@@ -140,6 +140,7 @@ section {
     margin-bottom: 25px;
     text-decoration: none;
     color: midnightblue;
+    border-bottom: 0.3vh solid midnightblue;
 }
 
 .content a:hover {
