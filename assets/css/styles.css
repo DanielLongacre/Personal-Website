@@ -150,15 +150,37 @@ section {
 /* Container for work section */
 #work .content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 /* Container for each separate work */
 .box {
     border: 3px solid midnightblue;
-    margin: 10px;
+    margin-bottom: 15px;
+    margin-left: 5%;
     padding: 50px;
+}
+
+#work1 {
+    width: 80%;
+    margin-left: 5%;
+}
+
+#work2 {
+    width: 30%;
+}
+
+#work3 {
+    width: 30%;
+}
+
+#work4 {
+    width: 30%;
+}
+
+#work5 {
+    width: 30%;
 }
 
 /* The work items themselves */
