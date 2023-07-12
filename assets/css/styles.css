@@ -19,6 +19,7 @@ header {
     background-color: rgb(44, 44, 44); 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -26,6 +27,7 @@ h1 {
     color: rgb(44, 44, 44);
     padding: 0 5px 0 50px;
     margin: 10px 0;
+    font-size: 5vw;
 }
 
 nav {
@@ -40,6 +42,7 @@ nav a {
     text-decoration: none;
     border-bottom: 2px solid black;
     border-color: skyblue;
+    font-size: 3vw;
 }
 
 nav a:hover {
