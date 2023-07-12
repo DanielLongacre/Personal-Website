@@ -215,3 +215,48 @@ footer {
 footer p {
     color: black;
 }
+
+@media screen and (max-width: 1062px) {
+    #work1 {
+        width: 30%;
+    }
+
+    .content a {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    nav a {
+        font-size: 20px;
+    }
+    #work .content {
+        justify-content: flex-start;
+    }
+
+    #work1 {
+        width: 65%;
+    }
+    #work2 {
+        width: 65%;
+    }
+    #work3 {
+        width: 65%;
+    }
+    #work4 {
+        width: 65%;
+    }
+    #work5 {
+        width: 65%;
+    }
+    .content {
+        justify-content: flex-start;
+    }
+    .content a {
+        text-align: center;
+    }
+}
