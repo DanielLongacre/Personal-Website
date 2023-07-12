@@ -121,11 +121,9 @@ section {
     margin-left: 5%;
     margin-right: 5%;
     color: midnightblue;
-    border: 2px solid black;
 }
 
 .content a {
-    border: 2px solid black;
     font-size: 30px;
     align-self: center;
     flex-wrap: wrap;
@@ -147,7 +145,7 @@ section {
 }
 
 .box {
-    border: 3px solid black;
+    border: 3px solid midnightblue;
     margin: 10px;
     padding: 50px;
 }
