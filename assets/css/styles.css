@@ -27,7 +27,7 @@ h1 {
     color: rgb(44, 44, 44);
     padding: 0 5px 0 50px;
     margin: 10px 0;
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 nav {
@@ -42,7 +42,7 @@ nav a {
     text-decoration: none;
     border-bottom: 2px solid black;
     border-color: skyblue;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 nav a:hover {
@@ -79,19 +79,23 @@ main {
     display: block;
 }
 
+/* 3 sections in main */
 section {
     margin-bottom: 5%;
     margin-right: 5%;
 }
 
+/* About section */
 #about {
     margin-top: 5%;
 }
 
+/* 1st Child of the 3 sections  */
 .container {
     display: flex;
 }
 
+/* Container for each Section title */
 .title {
     display: flex;
     flex: 0 0 20%;
@@ -100,6 +104,7 @@ section {
     margin-left: 5%;
 }
 
+/* Title of each section (left side) */
 .title h2 {
     color: midnightblue;
     font-size: 4vw;
@@ -107,6 +112,7 @@ section {
     align-self: flex-start;
 }
 
+/* Container of each sections content */
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -116,6 +122,7 @@ section {
     border-left: 3px solid midnightblue;
 }
 
+/* The actual content (right side) */
 .content p {
     font-size: 3vw;
     margin-left: 5%;
@@ -123,6 +130,7 @@ section {
     color: midnightblue;
 }
 
+/* Contact links */
 .content a {
     font-size: 30px;
     align-self: center;
@@ -138,18 +146,21 @@ section {
     color: skyblue;
 }
 
+/* Container for work section */
 #work .content {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
+/* Container for each separate work */
 .box {
     border: 3px solid midnightblue;
     margin: 10px;
     padding: 50px;
 }
 
+/* The work items themselves */
 .backgrounds {
     background-color: skyblue;
     position: relative;
@@ -158,6 +169,7 @@ section {
     padding-right: 15px;
 }
 
+/* Each work item title */
 h4 {
     color: black;
     text-align: left;
@@ -165,9 +177,11 @@ h4 {
     float: left;
 }
 
+/* Each work item subtitle */
 .box p {
     border: none;
     color: rgb(48, 48, 48);
+    font-size: 2vw;
 }
 
 footer {
