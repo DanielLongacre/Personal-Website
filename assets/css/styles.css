@@ -132,7 +132,7 @@ section {
 
 /* Contact links */
 .content a {
-    font-size: 30px;
+    font-size: 3vw;
     align-self: center;
     flex-wrap: wrap;
     margin-left: 5%;
