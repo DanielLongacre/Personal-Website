@@ -126,12 +126,18 @@ section {
 
 .content a {
     border: 2px solid black;
-    font-size: 25px;
+    font-size: 30px;
     align-self: center;
     flex-wrap: wrap;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 25px;
+    text-decoration: none;
+    color: midnightblue;
+}
+
+.content a:hover {
+    color: skyblue;
 }
 
 #work .content {
@@ -166,3 +172,11 @@ h4 {
     color: rgb(48, 48, 48);
 }
 
+footer {
+    text-align: center;
+    font-size: 2vw;
+}
+
+footer p {
+    color: black;
+}
