@@ -218,7 +218,25 @@ footer p {
 
 @media screen and (max-width: 1062px) {
     #work1 {
-        width: 30%;
+        width: 60%;
+    }
+    #work2 {
+        width: 60%;
+    }
+    #work3 {
+        width: 60%;
+    }
+    #work3 h4 {
+        padding-right: 25px;
+    }
+    #work4 {
+        width: 60%;
+    }
+    #work4 p {
+
+    }
+    #work5 {
+        width: 60%;
     }
 
     .content a {
@@ -226,8 +244,22 @@ footer p {
     }
 }
 
-@media screen and (max-width: 1024px) {
-    
+@media screen and (max-width: 1064px) {
+    #work1 {
+        width: 70%;
+    }
+    #work2 {
+        width: 20%;
+    }
+    #work3 {
+        width: 20%;
+    }
+    #work4 {
+        width: 20%;
+    }
+    #work5 {
+        width: 20%;
+    }
 }
 
 @media screen and (max-width: 768px) {
