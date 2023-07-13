@@ -168,6 +168,10 @@ section {
     display: flex;
 }
 
+#work1 .backgrounds {
+    width: 30%;
+}
+
 #work2 {
     width: 30%;
     display: flex;
@@ -264,7 +268,7 @@ footer p {
         width: 65%;
     }
     .content {
-        justify-content: flex-start;
+        justify-content: center;
     }
     .content a {
         text-align: center;
