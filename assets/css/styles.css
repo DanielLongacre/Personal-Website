@@ -22,6 +22,11 @@ header {
     flex-wrap: wrap;
 }
 
+#selfie img {
+    background-position-x: center;
+    background-position-y: center;
+}
+
 h1 {
     background-color: skyblue;
     color: rgb(44, 44, 44);
@@ -114,7 +119,7 @@ section {
 
 /* Container of each sections content */
 .content {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     flex: 0 0 70%;
     justify-content: center;
@@ -128,6 +133,14 @@ section {
     margin-left: 5%;
     margin-right: 5%;
     color: midnightblue;
+    width: 70%;
+}
+
+#selfie img{
+    width: 150px;
+    height: 220px;
+    background-color: white;
+    border-radius: 50%;
 }
 
 /* Contact links */
@@ -157,6 +170,7 @@ section {
 /* Container for each separate work */
 .box {
     border: 3px solid midnightblue;
+    background: midnightblue;
     margin-bottom: 15px;
     margin-left: 5%;
     padding: 50px;
