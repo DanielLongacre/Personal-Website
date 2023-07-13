@@ -82,8 +82,6 @@ nav a:hover {
     max-width: 400px;
     min-width: 100px;
     width: 7%;
-    /* max-height: fit-content; */
-    /* height: auto; */
     margin-top: 10px;
     margin-right: 80px;
     margin-bottom: 25px;
@@ -150,7 +148,7 @@ section {
 .content a {
     font-size: 2.5vw;
     align-self: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 25px;
@@ -177,6 +175,7 @@ section {
     margin-bottom: 15px;
     margin-left: 5%;
     padding: 50px;
+    cursor: pointer;
 }
 
 #work1 {
