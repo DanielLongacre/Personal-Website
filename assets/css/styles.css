@@ -22,11 +22,6 @@ header {
     flex-wrap: wrap;
 }
 
-#selfie img {
-    background-position-x: center;
-    background-position-y: center;
-}
-
 h1 {
     background-color: skyblue;
     color: rgb(44, 44, 44);
