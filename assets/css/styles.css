@@ -186,6 +186,8 @@ section {
 #work2 {
     width: 30%;
     display: flex;
+    background-image: url(../images/Siteimg.png);
+    background-size: cover;
 }
 
 #work3 {
