@@ -198,6 +198,8 @@ section {
 #work4 {
     width: 30%;
     display: flex;
+    background-image: url(../images/lilypad\ F1.png);
+    background-size: cover;
 }
 
 #work5 {
